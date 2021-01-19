@@ -72,7 +72,7 @@
 //     })
 // };
 
-const Blog = require('../model/model');
+const Blog = require('../models/model');
 // find all blogs
 exports.getall = async (req, res) => {
 

@@ -18,7 +18,7 @@
 //     app.delete('/api/delete/:noteId',blogs.delete);
 // }
 module.exports=(app)=>{
-    const blog=require('../controllers/controllers');
+    const blog=require('../controllers/controller');
 
     app.get('/api/blogs',blog.getall);
     app.get('/api/blog/:blogID',blog.getone);
